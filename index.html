@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Proffesional Multipurpose Bootstrap Theme</title>
+	<!-------------------Main Css--------------------->
+	<link rel="stylesheet" href="css/main.css">
+	<!------------------- Icons ---------------------->
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="webfonts/font/flaticon.css">
+	<!------------------- Bootstrap ---------------------->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--OWL SLIDER-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/owl.theme.css" />
+	<link rel="stylesheet" href="css/owl.transitions.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+</head>
+
+<body>
+
+	<header class="header" id="top">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/Logo.png" alt="logo-black" class="navbar-brand-logo-1">
+					<img src="images/Logo-white.png" alt="logo-black" class="navbar-brand-logo-2">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-icon"></span>
+					<span class="navbar-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="javascript:void(0)">Home</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="javascript:void(0)">About</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="javascript:void(0)">Services</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="javascript:void(0)">Work</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="javascript:void(0)">Career</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link" href="javascript:void(0)">Contact</a>
+						</li>							
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/all.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.menu-toggle').click(function () {
+				$('nav').toggleClass('active')
+			})
+		})
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/fontawesome.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/owlcarousel.init.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/slick.init.js"></script>
+	<!-- <script>
+		document.onkeydown = function (e) {
+			if (e.keyCode == 123) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+				return false;
+			}
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+				return false;
+			}
+			if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+				return false;
+			}
+
+			if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+				return false;
+			}
+		}
+	</script>
+	<script language="JavaScript">
+		/**
+		 * Disable right-click of mouse, F12 key, and save key combinations on page
+		 * By Arthur Gareginyan (arthurgareginyan@gmail.com)
+		 * For full source code, visit https://mycyberuniverse.com
+		 */
+		window.onload = function () {
+			document.addEventListener("contextmenu", function (e) {
+				e.preventDefault();
+			}, false);
+			document.addEventListener("keydown", function (e) {
+				//document.onkeydown = function(e) {
+				// "I" key
+				if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+					disabledEvent(e);
+				}
+				// "J" key
+				if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+					disabledEvent(e);
+				}
+				// "S" key + macOS
+				if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+					disabledEvent(e);
+				}
+				// "U" key
+				if (e.ctrlKey && e.keyCode == 85) {
+					disabledEvent(e);
+				}
+				// "F12" key
+				if (event.keyCode == 123) {
+					disabledEvent(e);
+				}
+			}, false);
+
+			function disabledEvent(e) {
+				if (e.stopPropagation) {
+					e.stopPropagation();
+				} else if (window.event) {
+					window.event.cancelBubble = true;
+				}
+				e.preventDefault();
+				return false;
+			}
+		};
+	</script> -->
+
+</body>
+
+</html>
